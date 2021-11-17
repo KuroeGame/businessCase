@@ -114,9 +114,4 @@
         </div>
     </nav>
 
-    <!-- vide -->
-            <section>
-                <div class="container-fluid menu">
-                </div>
-            </section>
 </header>
