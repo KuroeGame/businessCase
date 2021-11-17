@@ -19,6 +19,11 @@
         <?php include("header.php");?>
 
         <main>
+<!-- vide -->
+            <section>
+                <div class="container-fluid menu">
+                </div>
+            </section>
 
 
 <!-- a propos-->
