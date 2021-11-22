@@ -16,6 +16,10 @@ h2{
 	color: #14213D;
 }
 
+.titre{
+	color: #FCA311;
+}
+
 .btn a{
 	font-family: 'Buckerley', cursive;
 }
@@ -89,7 +93,7 @@ footer a{
 	color: white;
 }
 
-footer a:hover{
+body a:hover{
 	color: #FCA311;
 }
 
@@ -128,10 +132,44 @@ footer a:hover{
 	height: 600px;
 }
 
+.img1{
+	background: url(images/produit2.png) no-repeat center;
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+}
+
+.img2{
+	background: url(images/gamelle.jpg) no-repeat center;
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+}
+
+.prix{
+	background-color: #14213D;
+	width: 350px;
+	font-size: 50px;
+}
+
+.btnlink:hover{
+	background-color: #14213D !important;
+	color: #FCA311 !important;
+}
+
+
 /***********************************************************Border*/
 
 .rounded-5{
-	border-radius: 50px;
+	border-radius: 30px;
+}
+
+.rounded-b{
+	border-radius: 0px 20px 20px 0px !important;
+}
+
+.rounded-t{
+	border-radius: 20px 0px 0px 20px !important;
 }
 
 .produits h3{
@@ -149,6 +187,25 @@ footer a:hover{
 	background-color: white;
 	height: 1px;
 	width: 80%;
+	margin: auto;
+}
+
+.lignebot::after{
+	content: "";
+	display: block;
+	background-color: white;
+	height: 1px;
+	width: 100%;
+	margin: auto;
+}
+
+
+.lignetop::before{
+	content: "";
+	display: block;
+	background-color: white;
+	height: 1px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -172,6 +229,16 @@ footer a:hover{
 	align-items: center;
 }
 
+.validation{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.border-bottom{
+	border-bottom: 2px solid white !important;
+}
 
 /*****************************************NAV*/
 
@@ -274,13 +341,48 @@ nav a h2:hover{
 	border:2px solid #FCA311 !important;
 }
 
+.form-check-input:checked {
+    background-color: #14213d !important; 
+    border-color: #14213d !important;
+}
 
 
+/***********************************************************fixed*/
+
+.paw{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
 
 /***********************************************************Responsive*/
 
 @media screen and (min-width: 992px){
-	.menu{
-		height: 150px;
+	.menu2{
+    	height: 150px;
+	}
+
+	.borduredroite{
+		border-right: 2px solid white;
+	}
+
+	.promo .carousel-item{
+		height: 370px;
+	}
+
+	.titrepanier{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px){
+	.titrepanier{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.titrepanier{
+		display: none;
 	}
 }
