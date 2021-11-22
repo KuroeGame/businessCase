@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </section>
- 
+
 <!-- infos-->
             <section>
                 <div class="container my-5"> <!-- container ou fluid ? -->
@@ -61,8 +61,8 @@
                                 </div>
                                 <div class="lignebotb bg-bleu infosperso d-flex flex-column pt-3 pb-3">
                                     <h3 class="ps-4 titre">Coordonnées</h3>
-                                    <a href="/" title="" target="" class="ps-5 pe-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
-                                    <a href="modifid.php" title="" target="" class="ps-5 pe-4">Identifiants <i class="fas fa-angle-right"></i></a>
+                                    <a href="infosperso.php" title="" target="" class="ps-5 pe-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
+                                    <a href="/" title="" target="" class="ps-5 pe-4">Identifiants <i class="fas fa-angle-right"></i></a>
                                     <a href="index.php" title="" target="" class="ps-5 pe-4">Se déconnecter <i class="fas fa-angle-right"></i></a>
                                 </div>
                                 <div class="p-4">
@@ -78,42 +78,24 @@
                                         <a href="/" title="" target=""><div class="imgprofil"></div></a>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h2>Informations personnelles</h2>
+                                        <h2>Identifiants</h2>
                                         <form class="p-4">
-                                        <label for="lastname" class="form-label">Nom :</label>
+                                            <label for="email" class="form-label">Votre adresse e-mail :</label>
                                             <div class="mb-3 input-group">
                                                 <div class="input-group-text rounded-t bg-light"><i class="far fa-envelope"></i></div>
-                                                <input type="text" class="form-control rounded-b" id="lastname" value="Nom">
+                                                <input type="text" class="form-control rounded-b" id="email" value="email@email.fr">
                                             </div>
-                                            <label for="firstname" class="form-label">Prénom :</label>
+                                            <label for="password" class="form-label">Modifiez votre mot de passe :</label>
                                             <div class="mb-3 input-group">
-                                                <div class="input-group-text rounded-t bg-light"><i class="far fa-envelope"></i></div>
-                                                <input type="text" class="form-control rounded-b" id="firstname" value="Prénom">
+                                                <div class="input-group-text rounded-t bg-light"><i class="fas fa-lock"></i></div>
+                                                <input type="password" class="form-control rounded-b" id="password" placeholder="Nouveau mot de passe*">
                                             </div>
-                                            <div class=" mb-3 d-flex">
-                                                <label for="form-check" class="form-label">Civilité : </label>
-                                                <div class="form-check ms-3">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">M.</label>
-                                                </div>
-                                                <div class="form-check ms-3">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault2">Mme</label>
-                                                </div>
-                                                <div class="form-check ms-3">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault3">Autre</label>
-                                                </div>
+                                            <label for="password2" class="form-label">Confirmez votre mot de passe</label>
+                                            <div class="mb-3 input-group">
+                                                <div class="input-group-text rounded-t bg-light"><i class="fas fa-lock"></i></div>
+                                                <input type="password2" class="form-control rounded-b" id="password" placeholder="Nouveau mot de passe*">
                                             </div>
-                                            <label for="inputAddress" class="form-label">Votre adresse :</label>
-                                            <div class="input-group mb-3">
-                                                <div class="input-group-text rounded-t bg-light"><i class="fas fa-home"></i></div>
-                                                <input type="text" class="form-control rounded-b" id="inputAddress" value="15 rue de l’endroit 15600 Quelque part">
-                                            </div>
-                                            <div class="d-flex flex-column mb-3">
-                                                <label for="calendar">Date de naissance :</label><input type="date" id="calendar" name="trip-start" class="rounded-pill p-2" value="2018-07-22" min="1900-01-01" max="2002-12-31">
-                                            </div>
-                                            <div class="text-center mt-5">
+                                            <div class="text-center">
                                                 <button type="submit" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Enregistrer les modifications</a></button>
                                             </div>
                                         </form>

@@ -94,12 +94,12 @@
                                     </div>
                                 </div>
                                 <div class="col-6">
-                                    <label for="inputPrenom" class="form-label">Prénom*</label>
-                                    <input type="text" class="form-control rounded-pill" id="inputPrenom" placeholder="Votre prénom">
+                                    <label for="firstname" class="form-label">Prénom*</label>
+                                    <input type="text" class="form-control rounded-pill" id="firstname" placeholder="Votre prénom">
                                 </div>
                                 <div class="col-6">
-                                    <label for="inputNom" class="form-label">Nom*</label>
-                                    <input type="text" class="form-control rounded-pill" id="inputNom" placeholder="Votre nom">
+                                    <label for="lastname" class="form-label">Nom*</label>
+                                    <input type="text" class="form-control rounded-pill" id="lastname" placeholder="Votre nom">
                                 </div>
                                 <div class="col-12">
                                     <label for="inputAddress" class="form-label">Votre adresse*</label>
