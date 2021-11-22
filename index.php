@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
 <!-- Lier bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
 
@@ -10,20 +10,23 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+
 <!-- intégration icon fontawesome -->
         <script src="https://kit.fontawesome.com/6939106af0.js" crossorigin="anonymous"></script>
         <title>La Nîmes'alerie</title>
     </head>
     <body>
 
-        <?php include("header.php");?>
+        <header>
+            <?php include("header.php");?>
+        </header>
 
         <main>
 
 
 <!-- a propos-->
             <section>
-                <div class="bgimg align-items-center d-flex ">
+                <div class="bgimg align-items-center d-flex">
                     <div class="container-fluid text-center"> <!-- container ou fluid ? -->
                         <div class="row"> <!-- align 12 colonnes -->
                             <div class="col-lg-12 col-sm-12 mt-5 mb-5">
@@ -47,7 +50,7 @@
                 <div class="bg-bleu servs pt-2 pb-2">
                     <div class="container text-center text-light"> <!-- container ou fluid ? -->
                         <div class="row"> <!-- align 12 colonnes -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 borduredroite">
                                 <div class="d-flex justify-content-center align-items-center">
                                     <a href="#" class="d-flex align-items-center">
                                         <i class="fas fa-trophy fa-3x me-3"></i>
@@ -62,7 +65,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 borduredroite">
                                 <div class="d-flex justify-content-center align-items-center">
                                     <a href="#" class="d-flex align-items-center">
                                         <i class="fas fa-truck-moving fa-3x me-3"></i>
@@ -98,7 +101,7 @@
                             </select>
                         </h2>
                         <div class="row"> <!-- align 12 colonnes -->
-                            <div class="col-lg-3 col-sm-6 produits">
+                            <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="produit.php" title="vers le produit">
                                         <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
@@ -112,7 +115,7 @@
                                         </div>
                                         <p>description produit</p>
                                     </a>
-                                    <a href="" class="stars mb-2" title="vers les avis">
+                                    <a href="produit.php" class="stars mb-2" title="vers les avis">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -122,9 +125,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 produits">
+                            <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
-                                    <a href="" title="vers le produit">
+                                    <a href="produit.php" title="vers le produit">
                                         <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
@@ -136,7 +139,7 @@
                                         </div>
                                         <p>description produit</p>
                                     </a>
-                                    <a href="" class=" stars mb-2" title="vers les avis">
+                                    <a href="produit.php" class=" stars mb-2" title="vers les avis">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -146,9 +149,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 produits">
+                            <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
-                                    <a href="" title="vers le produit">
+                                    <a href="produit.php" title="vers le produit">
                                         <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
@@ -160,7 +163,7 @@
                                         </div>
                                         <p>description produit</p>
                                     </a>
-                                    <a href="" class="stars mb-2" title="vers les avis">
+                                    <a href="produit.php" class="stars mb-2" title="vers les avis">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -170,9 +173,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 produits">
+                            <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
-                                    <a href="" title="vers le produit">
+                                    <a href="produit.php" title="vers le produit">
                                         <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
@@ -204,7 +207,7 @@
             <section>
                 <div class="container-fluid text-center promo my-5"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-6 col-sm-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="">
                                 <h2 class="color-orange">Promo du moment</h2>
                                 <div>
@@ -212,10 +215,10 @@
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <div>
@@ -228,10 +231,10 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <div>
@@ -244,10 +247,10 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <div>
@@ -271,7 +274,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="">
                                 <h2 class="color-orange ">Les nouveautés</h2>
                                 <div>
@@ -279,10 +282,10 @@
                                         <div class="carousel-inner">
                                             <div class="carousel-item active" data-bs-interval="10000">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
@@ -291,10 +294,10 @@
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
@@ -303,10 +306,10 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="row p-3">
-                                                    <div class="col-lg-6 col-sm-12">
+                                                    <div class="col-lg-6 col-sm-6">
                                                         <img src="images/produit.png" class="d-block w-100" alt="produit1">
                                                     </div>
-                                                    <div class="col-lg-5 col-sm-12">
+                                                    <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                         <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
@@ -339,7 +342,7 @@
                                 <div class="">
                                     <h2>Pet in space</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat diam sed eu hendrerit orci urna pulvinar vitae. Amet ut aliquet rhoncus in porttitor.</p>
-                                    <button type="button" class="btn btn-contourgris2 mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris2 rounded-3 p-2">J'en profite</a></button>
+                                    <button type="button" class="btn btn-contourgris2 mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="petinspace.php" class="m-1 btn-gris2 rounded-3 p-2">J'en profite</a></button>
                                 </div>
                             </div>
                             <div class="col-lg-6 position-relative-lg">
@@ -386,7 +389,10 @@
             
         </main>
 
-    <?php include("footer.php");?>
+        <footer>
+            <?php include("footer.php");?>   
+        </footer>
+
 
     </body>
 </html>
