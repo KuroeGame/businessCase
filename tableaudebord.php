@@ -155,15 +155,15 @@
                                     <label class="form-check-label" for="flexCheckChecked">Recevoir par e-mail les offres commerciales</label>
                                 </div>
                                 <div class="d-flex justify-content-around">
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Modifier mon compte</a></button>
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Déconnexion</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="infosperso.php" class="m-1 btn-blue rounded-3 p-2">Modifier mon compte</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Déconnexion</a></button>
                                 </div>
                             </div>
                             <div class="bg-gris rounded-5 mt-5 p-4">
                                 <h2>Ma Messagerie</h2>
                                 <div class="text-center">
                                     <p>Vous avez<br/>0<br/>message(s) non lu(s)</p>
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Acceder à ma messagerie</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Acceder à ma messagerie</a></button>
                                 </div>
                             </div>
                             <div class="bg-bleu rounded-5 mt-5 d-flex p-4 justify-content-around">

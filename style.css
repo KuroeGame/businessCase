@@ -157,6 +157,14 @@ body a:hover{
 	color: #FCA311 !important;
 }
 
+.imgprofil{
+	background: url(images/dog.png) no-repeat center;
+	background-size: cover;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+
 
 /***********************************************************Border*/
 
@@ -194,6 +202,15 @@ body a:hover{
 	content: "";
 	display: block;
 	background-color: white;
+	height: 1px;
+	width: 100%;
+	margin: auto;
+}
+
+.lignebotb::after{
+	content: "";
+	display: block;
+	background-color: #14213D;
 	height: 1px;
 	width: 100%;
 	margin: auto;
