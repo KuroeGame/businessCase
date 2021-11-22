@@ -1,26 +1,24 @@
-<footer>
-
 <!-- engagement -->
             <section>
                 <div class="bg-gris engagement">
                     <div class="container-fluid text-center p-3"> <!-- container ou fluid ? -->
                         <h2 class="p-3">Notre Engagement</h2>
                         <div class="row"> <!-- align 12 colonnes -->
-                            <div class="col-lg-4 col-sm-6"> 
+                            <div class="col-lg-4 col-sm-12 borduredroite"> 
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-euro-sign fa-5x"></i>
+                                    <i class="fas fa-euro-sign fa-4x"></i>
                                     <p class="pt-3 ps-1">Remboursement sous <br/><strong class="color-orange">30 jours</strong></p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
+                            <div class="col-lg-4 col-sm-12 borduredroite">
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-comments fa-5x"></i>
+                                    <i class="fas fa-comments fa-4x"></i>
                                     <p class="pt-3 ps-1">Un service à votre écoute</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
+                            <div class="col-lg-4 col-sm-12">
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-dolly fa-5x"></i>
+                                    <i class="fas fa-dolly fa-4x"></i>
                                     <p class="pt-3 ps-1">Livraison <strong class="color-orange">Gratuite</strong> sous 24h<br/><em>sans minimum d'achat</em></p>
                                 </div>
                             </div>
@@ -122,11 +120,11 @@
                         </div>
                         <div class="row p-4">
                             <div class="col-lg-12 col-sm-12 text-center p-3 border-top">
-                                <a href="/" title="" target="" class="me-4">CGU</a>
-                                <a href="/" title="" target="" class="me-4">CGV</a>
-                                <a href="/" title="" target="" class="me-4">Mention légales</a>
-                                <a href="/" title="" target="" class="me-4">Contact</a>
-                                <a href="/" title="" target="">Nous trouver</a>
+                                <a href="cgu.php" title="" target="" class="me-4">CGU</a>
+                                <a href="cgv.php" title="" target="" class="me-4">CGV</a>
+                                <a href="mentionlegales.php" title="" target="" class="me-4">Mention légales</a>
+                                <a href="contacter.php" title="" target="" class="me-4">Contact</a>
+                                <a href="plan.php" title="" target="">Nous trouver</a>
                             </div>
                         </div>
                     </div>
@@ -141,4 +139,3 @@
             })
             });
             </script>
-        </footer>
