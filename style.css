@@ -169,7 +169,6 @@ body a:hover{
 	border-radius: 50%;
 }
 
-
 /***********************************************************Border*/
 
 .rounded-5{
@@ -215,6 +214,15 @@ body a:hover{
 	content: "";
 	display: block;
 	background-color: #14213D;
+	height: 1px;
+	width: 100%;
+	margin: auto;
+}
+
+.lignebotbw::after{
+	content: "";
+	display: block;
+	background-color: #ffffff;
 	height: 1px;
 	width: 100%;
 	margin: auto;
@@ -366,6 +374,7 @@ nav a h2:hover{
     background-color: #14213d !important; 
     border-color: #14213d !important;
 }
+
 
 
 /***********************************************************fixed*/

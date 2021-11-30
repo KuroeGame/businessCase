@@ -23,7 +23,7 @@
                                 <div class="tab-content" id="v-pills-tabContent">
                                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                         <h2 class="border-bottom color-orange">Chien</h2>
-                                        <a href="" title="alimentation chiens" target="">Alimentation pour chien</a><br/>
+                                        <a href="boutique.php" title="alimentation chiens" target="">Alimentation pour chien</a><br/>
                                         <a href="" title="jouets chiens" target="">Jouets pour chien</a><br/>
                                         <a href="" title="soins chiens" target="">Les soins du chien</a><br/>
                                         <a href="" title="accessoires chiens" target="">Accessoires pour chien</a><br/>

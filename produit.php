@@ -110,7 +110,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="produit.php" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -134,7 +134,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -158,7 +158,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -182,7 +182,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>

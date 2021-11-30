@@ -52,21 +52,21 @@
                             <div class="bg-gris rounded-5 pt-3 ">
                                 <div class="lignebotb ps-4 pe-4 d-flex flex-column">
                                     <h3>Messagerie</h3>
-                                    <a href="/" title="" target="" class="ms-4">Messages(s) reçu(s) <i class="fas fa-angle-right"></i></a>
-                                    <a href="/" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
-                                    <a href="/" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
+                                    <a href="messrecu.php" title="" target="" class="ms-4">Messages(s) reçu(s) <i class="fas fa-angle-right"></i></a>
+                                    <a href="messenvoye.php" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
+                                    <a href="nousecrire.php" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
                                 </div>
                                 <div class="p-4">
                                     <a href="/" title="" target=""><h3>Mes commandes</h3></a>
                                 </div>
                                 <div class="lignebotb bg-bleu infosperso d-flex flex-column pt-3 pb-3">
                                     <h3 class="ps-4 titre">Coordonnées</h3>
-                                    <a href="/" title="" target="" class="ps-5 pe-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
+                                    <a href="infosperso.php" title="" target="" class="ps-5 pe-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
                                     <a href="modifid.php" title="" target="" class="ps-5 pe-4">Identifiants <i class="fas fa-angle-right"></i></a>
-                                    <a href="index.php" title="" target="" class="ps-5 pe-4">Se déconnecter <i class="fas fa-angle-right"></i></a>
+                                    <a href="index.php" title="" target="" class="ps-5 pe-4 mb-3">Se déconnecter <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="p-4">
-                                    <a href="/" title="" target=""><h3>Newsletter</h3></a>
+                                <div class="ps-4 pe-4 pb-3 pt-3">
+                                    <a href="newsletter.php" title="" target=""><h3>Newsletter</h3></a>
                                 </div>   
 
                             </div>
