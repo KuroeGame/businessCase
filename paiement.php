@@ -87,7 +87,7 @@
                                 </div>
                             </form>
                             <div class="text-center">
-                                <p>En cliquant sur le bouton ci-dessous, j'accepte les CGV.</p>
+                                <p>En cliquant sur le bouton ci-dessous, j'accepte les <strong><a href="cgv.php">CGV.</a></strong></p>
                                 <a href="/" title="" target=""><h2 class="bg-bleu rounded-pill titre p-2">Payer</h2></a>
                                 <a href="cgv.php" title="" target="">Lire les conditions générales de vente</a>
                             </div>

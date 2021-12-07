@@ -11,7 +11,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
-        
+
 <!-- intégration icon fontawesome -->
         <script src="https://kit.fontawesome.com/6939106af0.js" crossorigin="anonymous"></script>
         <title>La Nîmes'alerie</title>
@@ -25,7 +25,7 @@
         <main>
 
 <!-- chemin d'acces-->
-            <section>
+        <section>
                 <div class="container-fluid"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
                         <div class="col-lg-12 col-sm-12">
@@ -33,7 +33,9 @@
                                 <p>
                                     <a href="index.php">Accueil</a>
                                     -
-                                    <a href="">Mon compte</a>
+                                    <a href="tableaudebord.php">Mon compte</a>
+                                    -
+                                    <a href="tableaudebord.php">Mes Commandes</a>
                                 </p>
                             </div>
                         </div>
@@ -41,18 +43,12 @@
                 </div>
             </section>
 
-<!-- informations-->
+<!-- commandes -->
             <section>
                 <div class="container my-5"> <!-- container ou fluid ? -->
-                    <h2 class="titre">Votre tableau de bord</h2>
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Vos Dernières Commandes</h3>
-                            <a href="mescommandes.php" title="" target="">Affichez toutes les commandes <i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
+                    <h2 class="titre">Vos Commandes</h2>
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-6 mb-5">
+                        <div class="col-12">
                             <div class="bg-gris rounded-5 p-3">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h4>Livré le : 20 sept 2021</h4>
@@ -221,44 +217,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 ">
-                            <div class="bg-gris rounded-5 p-4">
-                                <h2>Mes informations</h2>
-                                <p>email@email.fr</p>
-                                <p>Nom Prénom</p>
-                                <p>Date de naissance : 12/10/1975</p>
-                                <p>Adresse : 15 rue de l’endroit 15600 Quelque part</p>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">Recevoir par e-mail les offres commerciales</label>
-                                </div>
-                                <div class="d-flex justify-content-around">
-                                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="infosperso.php" class="btn-blue rounded-3 p-1">Modifier mon compte</a></button>
-                                    <button type="button" class="btn btn-contourblue mt-3 p-1 ps-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Déconnexion</a></button>
-                                </div>
-                            </div>
-                            <div class="bg-gris rounded-5 mt-5 p-4">
-                                <h2>Ma Messagerie</h2>
-                                <div class="text-center">
-                                    <p>Vous avez<br/><strong>0</strong><br/>message(s) non lu(s)</p>
-                                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="messrecu.php" class="btn-blue rounded-3 p-1">Acceder à ma messagerie</a></button>
-                                </div>
-                            </div>
-                            <div class="bg-bleu rounded-5 mt-5 d-flex p-4 justify-content-around">
-                                <img src="images/produit2.png" alt="image" width="100" height="" class="img-fluid ">
-                                <div class="text-center text-light ms-4">
-                                    <h2 class="lignebot titre">Produit du moment</h2>
-                                    <h3>Marque</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare proin pulvinar facilisis arcu elementum nunc.</p>
-                                    <button type="button" class="btn btn-contourgris mt-3 p-1 rounded-3"><a href="produit.php" class="btn-gris rounded-3 p-1">Je découvre</a></button>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+            </section>
+<!-- paw-->
+            <section>
+                <div class="container"> <!-- container ou fluid ? -->
+                    <div class="row"> <!-- align 12 colonnes -->
+                        <div class="col-lg-12 col-sm-12">
+                            <a href="#top"><img src="images/paw.png" alt="image" width="56" height="48" class="img-fluid paw"></a>
                         </div>
                     </div>
                 </div>
             </section>
-
-            </main>
+        </main>
 
         <footer>
             <?php include("footer.php");?>   

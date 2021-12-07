@@ -102,6 +102,7 @@
                                         <option value="1">Prix par ordre croissant</option>
                                         <option value="2">Prix par ordre décroissant</option>
                                         <option value="3">Marques</option>
+                                        <option value="4">Promotions</option>
                                     </select>         
                                 </div>
                             </div>

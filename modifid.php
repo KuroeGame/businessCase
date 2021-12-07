@@ -50,14 +50,11 @@
                     <div class="row"> <!-- align 12 colonnes -->
                         <div class="col-lg-3 col-sm-12 mb-5">
                             <div class="bg-gris rounded-5 pt-3 ">
-                                <div class="lignebotb ps-4 pe-4 d-flex flex-column">
+                                <div class=" ps-4 pe-4 d-flex flex-column">
                                     <h3>Messagerie</h3>
                                     <a href="messrecu.php" title="" target="" class="ms-4">Messages(s) reçu(s) <i class="fas fa-angle-right"></i></a>
                                     <a href="messenvoye.php" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
                                     <a href="nousecrire.php" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
-                                </div>
-                                <div class="p-4 ">
-                                    <a href="/" title="" target=""><h3>Mes commandes</h3></a>
                                 </div>
                                 <div class="lignebotb bg-bleu infosperso d-flex flex-column pt-3 pb-3">
                                     <h3 class="ps-4 titre">Coordonnées</h3>

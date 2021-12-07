@@ -54,9 +54,6 @@
                                     <a href="messenvoye.php" title="" target="" class="ps-5 pe-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
                                     <a href="nousecrire.php" title="" target="" class="ps-5 pe-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="p-4 lignebotb">
-                                    <a href="/" title="" target=""><h3>Mes commandes</h3></a>
-                                </div>
                                 <div class="lignebotb ps-4 pe-4 d-flex flex-column pt-3 pb-3">
                                     <h3>Coordonnées</h3>
                                     <a href="infosperso.php" title="" target="" class="ms-4">Informations personnelles <i class="fas fa-angle-right"></i></a>

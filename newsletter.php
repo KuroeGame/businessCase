@@ -54,9 +54,6 @@
                                     <a href="messenvoye.php" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
                                     <a href="nousecrire.php" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="p-4 lignebotb">
-                                    <a href="/" title="" target=""><h3>Mes commandes</h3></a>
-                                </div>
                                 <div class=" ps-4 pe-4 d-flex flex-column pt-3 pb-3">
                                     <h3>Coordonnées</h3>
                                     <a href="infosperso.php" title="" target="" class="ms-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
@@ -97,18 +94,18 @@
                                                 <input class="form-check-input choice" type="checkbox" value="dogs" id="dogs">
                                             </div>
                                             <div class="col-sm-2 text-center">
-                                                <img src="images/guinea-pig.png choice" alt="image" width="100px" height="100px" class="img-fluid">
+                                                <img src="images/guinea-pig.png" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Rongeurs</p>
-                                                <input class="form-check-input" type="checkbox" value="rodents" id="rodents">
+                                                <input class="form-check-input choice" type="checkbox" value="rodents" id="rodents">
                                             </div>
                                             <div class="col-sm-2 text-center">
-                                                <img src="images/poisson.png choice" alt="image" width="100px" height="100px" class="img-fluid">
+                                                <img src="images/poisson.png" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Poissons</p>
-                                                <input class="form-check-input" type="checkbox" value="fishs" id="fishs">
+                                                <input class="form-check-input choice" type="checkbox" value="fishs" id="fishs">
                                             </div>
                                         </div>
                                         <div class="p-4 d-flex justify-content-center align-items-center">
-                                            <button type="button" class="submitNewsletter btn btn-contourblue p-1 rounded-3"><p class="btn-blue rounded-3 p-1">Valider</p></button>
+                                            <button type="button" class="submitNewsletter btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Valider</a></button>
                                             <a href="" class="ms-2">Me désabonner</a>
                                         </div>
                                         </form>

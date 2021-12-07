@@ -396,6 +396,40 @@ nav a h2:hover {
 .hide {
   display: none !important;
 }
+/***********************************************************STARS*/
+.rating-wrapper {
+  direction: rtl !important;
+}
+
+.rating-wrapper label {
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.3rem;
+  padding: 1rem 0.2rem;
+  transition: color 0.5s;
+}
+
+.rating-wrapper input {
+  height: 100%;
+  width: 100%;
+}
+
+.rating-wrapper input {
+  display: none;
+}
+
+.rating-wrapper label:hover,
+.rating-wrapper label:hover ~ label,
+.rating-wrapper input:checked ~ label {
+  color: #fca311;
+}
+
+.rating-wrapper label:hover,
+.rating-wrapper label:hover ~ label,
+.rating-wrapper input:checked ~ label {
+  color: #fca311;
+}
 
 /***********************************************************Boutique*/
 
