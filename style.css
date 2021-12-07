@@ -379,20 +379,47 @@ nav a h2:hover {
   border-color: #14213d !important;
 }
 
-.hide {
-  display: none !important;
-}
-
 .accordion-button::after {
   background-image: url("images/arrow.png") !important;
 }
 
-/***********************************************************fixed*/
+/***********************************************************Autre*/
 
+/*Fixed de la pates aux pages cgv ...*/
 .paw {
   position: fixed;
   right: 10px;
   bottom: 10px;
+}
+
+/*Classe caché*/
+.hide {
+  display: none !important;
+}
+
+/***********************************************************Boutique*/
+
+.products p {
+  margin: auto !important;
+}
+
+/*SCROLLBAR*/
+.products {
+  height: 700px;
+  overflow-y: auto;
+}
+
+.sc1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.sc1::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.sc1::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 10px;
 }
 
 /***********************************************************Responsive*/

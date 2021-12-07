@@ -31,9 +31,9 @@
                                 <p>
                                     <a href="index.php">Acceuil</a>
                                     -
-                                    <a href="">Chiens</a>
+                                    <a href="boutique.php">Chiens</a>
                                     -
-                                    <a href="">Alimentation pour chiens</a>
+                                    <a href="boutique.php">Alimentation pour chiens</a>
                                 </p>
                             </div>
                         </div>

@@ -74,7 +74,7 @@
                 </div>
             </section>
 
-<!-- a propos-->
+<!-- produits -->
             <section>
                 <div class="container-fluid"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
@@ -413,34 +413,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-9 bg-gris  col-sm-8 d-flex flex-column">
+                        <div class="col-lg-9 bg-gris products sc1 col-sm-8 d-flex flex-column">
                             <div class="row p-4">
                                 <div class="col-lg-3 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -448,27 +440,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -476,27 +460,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -504,27 +480,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                             </div>
@@ -534,27 +502,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -562,27 +522,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -590,27 +542,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -618,27 +562,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                             </div>
@@ -648,27 +584,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -676,27 +604,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -704,27 +624,19 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mb-3">
@@ -732,27 +644,101 @@
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                             <h3>Nom Produit</h3>
-                                            <div class="row mb-3">
-                                                <div class="col-6 text-start ps-5">
-                                                    <p>prix €</p>
-                                                </div>
-                                                <div class="col-6 text-center">
-                                                    <div class="bg-orange rounded-5">
-                                                        <i class="fas fa-cart-plus fa-1x "></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-around">
-                                                <div>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p>4.7 sur 105 240 avis</p>
-                                            </div>
                                         </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row p-4">
+                                <div class="col-lg-3 mb-3">
+                                    <div class="bg-white rounded-5 text-center p-2">
+                                        <a href="produit.php" title="vers le produit">
+                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
+                                            <h3>Nom Produit</h3>
+                                        </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <div class="bg-white rounded-5 text-center p-2">
+                                        <a href="produit.php" title="vers le produit">
+                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
+                                            <h3>Nom Produit</h3>
+                                        </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <div class="bg-white rounded-5 text-center p-2">
+                                        <a href="produit.php" title="vers le produit">
+                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
+                                            <h3>Nom Produit</h3>
+                                        </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <div class="bg-white rounded-5 text-center p-2">
+                                        <a href="produit.php" title="vers le produit">
+                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
+                                            <h3>Nom Produit</h3>
+                                        </a>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <p>prix €</p>
+                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
                             </div>
