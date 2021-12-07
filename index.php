@@ -198,7 +198,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Voir plus de produits</a></button>
+                        <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Voir plus de produits</a></button>
                     </div>
                 </div>
             </section>
@@ -225,7 +225,7 @@
                                                             <p>profitez de</p>
                                                             <p><strong class="pt-2 pb-2 pe-5 ps-5 color-orange">-20 %</strong></p>
                                                         </div>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris p-1 mt-3 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -241,7 +241,7 @@
                                                             <p>profitez de</p>
                                                             <p><strong class="pt-2 pb-2 pe-5 ps-5 color-orange">-20 %</strong></p>
                                                         </div>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris p-1 mt-3 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -257,7 +257,7 @@
                                                             <p>profitez de</p>
                                                             <p><strong class="pt-2 pb-2 pe-5 ps-5 color-orange">-20 %</strong></p>
                                                         </div>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris p-1 mt-3 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,7 +288,7 @@
                                                     <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris p-1 mt-3 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -300,7 +300,7 @@
                                                     <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris p-1 mt-3 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -312,7 +312,7 @@
                                                     <div class="col-lg-5 col-sm-6">
                                                         <h3 class="color-orange">Marque</h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                        <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">J'en profite</a></button>
+                                                        <button type="button" class="btn btn-contourgris mt-3 p-1 rounded-3"><a href="" class="btn-gris rounded-3 p-1">J'en profite</a></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -342,7 +342,7 @@
                                 <div class="">
                                     <h2>Pet in space</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat diam sed eu hendrerit orci urna pulvinar vitae. Amet ut aliquet rhoncus in porttitor.</p>
-                                    <button type="button" class="btn btn-contourgris2 mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="petinspace.php" class="m-1 btn-gris2 rounded-3 p-2">J'en profite</a></button>
+                                    <button type="button" class="btn btn-contourgris2 mt-3 p-1 rounded-3"><a href="petinspace.php" class="btn-gris2 rounded-3 p-1">J'en profite</a></button>
                                 </div>
                             </div>
                             <div class="col-lg-6 position-relative-lg">
@@ -370,7 +370,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Voir les 105240 avis</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Voir les 105240 avis</a></button>
                             </div>
                         </div>
                         <div class="col-lg-8 col-sm-6">
@@ -392,7 +392,6 @@
         <footer>
             <?php include("footer.php");?>   
         </footer>
-
 
     </body>
 </html>

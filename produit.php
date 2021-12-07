@@ -31,9 +31,9 @@
                                 <p>
                                     <a href="index.php">Acceuil</a>
                                     -
-                                    <a href="">Chiens</a>
+                                    <a href="boutique.php">Chiens</a>
                                     -
-                                    <a href="">Alimentation pour chiens</a>
+                                    <a href="boutique.php">Alimentation pour chiens</a>
                                 </p>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                     <p>(3,60€/kg)</p>
                                 </div>
                                 <div class="col-lg-5 col-sm-12 text-end">
-                                    <button type="button" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Ajouter au Panier</a></button>
+                                    <button type="button" class="btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Ajouter au Panier</a></button>
                                 </div>
                             </div>
                             <div class="border mt-2 rounded-3 p-3">
@@ -110,7 +110,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="produit.php" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -134,7 +134,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -158,7 +158,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -182,7 +182,7 @@
                             <div class="col-lg-3 col-sm-6 produits mt-3">
                                 <div class="bg-light rounded-5">
                                     <a href="" title="vers le produit">
-                                        <img src="images/produit.png" class="" height="200px" width="" alt="produit1">
+                                        <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
                                         <div class="row mb-3">
                                             <div class="col-7 text-start ps-5">
                                                 <h4>Nom produit</h4>
@@ -204,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Voir plus de produits</a></button>
+                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Voir plus de produits</a></button>
                 </div>
             </section>
 

@@ -87,7 +87,7 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-12 d-flex justify-content-center">
-                                <button type="button" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Envoyer</a></button>
+                                <button type="submit" class="btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Envoyer</a></button>
                             </div>
                         </div>
                     </div>

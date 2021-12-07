@@ -153,7 +153,7 @@
                             </div>
                             <p>Avant de passer commande je lis et j'accepte les CGU de la boutique ainsi que les conditions du RGPD</p>
                             <div class="text-center">
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Valider et payer ma commande</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="paiement.php" class="btn-blue rounded-3 p-1">Valider et payer ma commande</a></button>
                             </div>
                         </div>
                     </div>

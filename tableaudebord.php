@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-6 ">
+                        <div class="col-lg-6 mb-5">
                             <div class="bg-gris rounded-5 p-3">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h4>Livré le : 20 sept 2021</h4>
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 mt-5">
+                        <div class="col-lg-6 col-sm-12 ">
                             <div class="bg-gris rounded-5 p-4">
                                 <h2>Mes informations</h2>
                                 <p>email@email.fr</p>
@@ -155,15 +155,15 @@
                                     <label class="form-check-label" for="flexCheckChecked">Recevoir par e-mail les offres commerciales</label>
                                 </div>
                                 <div class="d-flex justify-content-around">
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Modifier mon compte</a></button>
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Déconnexion</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="infosperso.php" class="btn-blue rounded-3 p-1">Modifier mon compte</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 p-1 ps-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Déconnexion</a></button>
                                 </div>
                             </div>
                             <div class="bg-gris rounded-5 mt-5 p-4">
                                 <h2>Ma Messagerie</h2>
                                 <div class="text-center">
                                     <p>Vous avez<br/>0<br/>message(s) non lu(s)</p>
-                                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="paiement.php" class="m-1 btn-blue rounded-3 p-2">Acceder à ma messagerie</a></button>
+                                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="messrecu.php" class="btn-blue rounded-3 p-1">Acceder à ma messagerie</a></button>
                                 </div>
                             </div>
                             <div class="bg-bleu rounded-5 mt-5 d-flex p-4 justify-content-around">
@@ -172,7 +172,7 @@
                                     <h2 class="lignebot titre">Produit du moment</h2>
                                     <h3>Marque</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare proin pulvinar facilisis arcu elementum nunc.</p>
-                                    <button type="button" class="btn btn-contourgris mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-gris rounded-3 p-2">Je découvre</a></button>
+                                    <button type="button" class="btn btn-contourgris mt-3 p-1 rounded-3"><a href="produit.php" class="btn-gris rounded-3 p-1">Je découvre</a></button>
                                 </div>
                             </div>
                         </div>

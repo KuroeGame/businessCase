@@ -23,7 +23,7 @@
                                 <div class="tab-content" id="v-pills-tabContent">
                                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                         <h2 class="border-bottom color-orange">Chien</h2>
-                                        <a href="" title="alimentation chiens" target="">Alimentation pour chien</a><br/>
+                                        <a href="boutique.php" title="alimentation chiens" target="">Alimentation pour chien</a><br/>
                                         <a href="" title="jouets chiens" target="">Jouets pour chien</a><br/>
                                         <a href="" title="soins chiens" target="">Les soins du chien</a><br/>
                                         <a href="" title="accessoires chiens" target="">Accessoires pour chien</a><br/>
@@ -73,8 +73,8 @@
                             <h2>Promos & Marques</h2>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Promos</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Marques</h2></a></li>
+                            <li><a class="dropdown-item" href="boutique.php"><h2 class="h2nav">Promos</h2></a></li>
+                            <li><a class="dropdown-item" href="marques.php"><h2 class="h2nav">Marques</h2></a></li>
                             <li class="text-end pe-3"><i class="fas fa-paw"></i></li>
                         </ul>
                     </li>
@@ -83,9 +83,9 @@
                             <h2>Nos services</h2>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Nous contacter</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">La Boutiques</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Activités</h2></a></li>
+                            <li><a class="dropdown-item" href="contacter.php"><h2 class="h2nav">Nous contacter</h2></a></li>
+                            <li><a class="dropdown-item" href="boutique.php"><h2 class="h2nav">La Boutiques</h2></a></li>
+                            <li><a class="dropdown-item" href="petinspace.php"><h2 class="h2nav">Activité</h2></a></li>
                             <li class="text-end pe-3"><i class="fas fa-paw"></i></li>
                         </ul>
                     </li>

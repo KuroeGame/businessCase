@@ -46,7 +46,7 @@
             <section>
                 <div class="container my-5"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-5 col-sm-12 bg-gris rounded-5 p-4">
+                        <div class="col-lg-5 col-sm-12 mb-3 bg-gris rounded-5 p-4">
                             <h2 class="titre">Je me connecte</h2>
                             <form class="p-4">
                                 <div class="mb-3 input-group">
@@ -60,16 +60,16 @@
                                 <a href="/" title="" target=""> Mot de passe oublié <i class="fas fa-arrow-right"></i></a>
                             </form>
                             <div class="text-center">
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="tableaudebord.php" class="m-1 btn-blue rounded-3 p-2">Me connecter</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="tableaudebord.php" class="btn-blue rounded-3 p-1">Me connecter</a></button>
                             </div>
                             <p><em>* Champs obligatoire</em></p>
                         </div>
                         <div class="col-lg-2"></div>
-                        <div class="col-lg-5 col-sm-12 bg-gris rounded-5 p-4">
+                        <div class="col-lg-5 col-sm-12 mb-3 bg-gris rounded-5 p-4">
                             <h2 class="titre">Je créé mon compte</h2>
                             <p>Bienvenue dans l’aventure La Nîmes’alerie!</p>
                             <div class="text-center">
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="creationcompte.php" class="m-1 btn-blue rounded-3 p-2">Créer mon compte</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="creationcompte.php" class=" btn-blue rounded-3 p-1">Créer mon compte</a></button>
                             </div>
                         </div>
                     </div>
