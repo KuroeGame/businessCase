@@ -73,7 +73,7 @@
                                         <textarea class="form-control rounded-3" id="message" rows="3"></textarea>
                                     </div>
                                     <div class="mb-3 text-center">
-                                        <button type="submit" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Envoyer</a></button>
+                                        <button type="submit" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Envoyer</a></button>
 
                                     </div>
                                 </form>

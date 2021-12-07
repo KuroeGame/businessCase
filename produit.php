@@ -90,7 +90,7 @@
                                     <p>(3,60€/kg)</p>
                                 </div>
                                 <div class="col-lg-5 col-sm-12 text-end">
-                                    <button type="button" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Ajouter au Panier</a></button>
+                                    <button type="button" class="btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Ajouter au Panier</a></button>
                                 </div>
                             </div>
                             <div class="border mt-2 rounded-3 p-3">
@@ -204,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                    <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Voir plus de produits</a></button>
+                    <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Voir plus de produits</a></button>
                 </div>
             </section>
 

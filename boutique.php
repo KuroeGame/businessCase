@@ -44,11 +44,32 @@
                 </div>
             </section>
 
-<!-- a propos-->
-            <section>
-                <div class="container-fluid text-center"> <!-- container ou fluid ? -->
+<!-- sous-catégories -->
+            <section class="bg-bleu p-2">
+                <div class="container text-center"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
-                        nav
+                        <div class="col-12">
+                            <ul class="nav justify-content-around">
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Croquettes</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Alimentation médicalisé</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Patée</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Lait Maternisé</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Bio & naturel</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-pill"><a href="petinspace.php" class="nav-link btn-gris2 rounded-pill ">+</a></button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -63,7 +84,7 @@
                                 <a href="" title="vers le produit"><i class="fas fa-undo"></i>Réinitialiser les filtres</a>
                                 <div class="mb-3 d-flex">
                                     <label for="sujet" class="form-label">Triez par</label>
-                                    <select class="form-select form-select-sm rounded-pill" id="sujet"aria-label="Default select example">
+                                    <select class="form-select-sm rounded-pill" id="sujet"aria-label="Default select example">
                                         <option selected>-- Selectionnez un tri -- </option>
                                         <option value="1">tri 1</option>
                                         <option value="2">tri 2</option>
@@ -71,99 +92,324 @@
                                     </select>         
                                 </div>
                             </div>
-                            <div>
-                                <h2 class="titre">Marques</h2>
-                                <form class="form-inline">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <button class="btn btn-dark my-2 my-sm-0" type="submit"><i class="fas fa-search fa-lg"></i></button>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button
+                                        class="accordion-button bg-bleu titre"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                        >
+                                        Marques
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseOne"
+                                        class="accordion-collapse collapse show bg-bleu text-white"
+                                        aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body ps-3">
+                                        <div class="input-group-prepend d-flex">
+                                            <button
+                                            class="btn btn-dark my-2 my-sm-0 rounded-t"
+                                            type="submit"
+                                            >
+                                            <i class="fas fa-search fa-lg"></i>
+                                            </button>
+                                            <input
+                                            class="form-control mr-sm-2 rounded-b"
+                                            type="search"
+                                            placeholder="Recherchez"
+                                            aria-label="Search"
+                                            />
                                         </div>
-                                        <input class="form-control mr-sm-2" type="search" placeholder="Recherchez" aria-label="Search">
-                                        
+                                        <div class="form-check mb-2 mt-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="1"
+                                            id="checkBrand"
+                                            />
+                                            <label class="form-check-label" for="checkBrand">
+                                            Marque 1
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="2"
+                                            id="checkBrand"
+                                            />
+                                            <label class="form-check-label" for="checkBrand">
+                                            Marque 2
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="2"
+                                            id="checkBrand"
+                                            checked
+                                            />
+                                            <label class="form-check-label" for="checkBrand">
+                                            Marque 3
+                                            </label>
+                                        </div>
+                                        <a href="" class="text-white"
+                                            >Plus de choix <i class="fas fa-chevron-right"></i
+                                        ></a>
+                                        </div>
                                     </div>
-                                </form>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">Default radio1</label>
                                 </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                    <label class="form-check-label" for="flexRadioDefault2">Default radio2</label>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header titre" id="headingTwo">
+                                        <button
+                                        class="accordion-button collapsed bg-bleu titre"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                        >
+                                        Prix
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseTwo"
+                                        class="accordion-collapse collapse bg-bleu text-white"
+                                        aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body">
+                                        <p>
+                                            De
+                                            <select
+                                            class="min p-1 mx-1 rounded font-family-primary-light"
+                                            id="45-min"
+                                            aria-label="Choix 1"
+                                            >
+                                            <option value="0">0 €</option>
+                                            <option value="30">30 €</option>
+                                            <option value="60">60 €</option>
+                                            <option value="90">90 €</option>
+                                            <option value="120">120 €</option>
+                                            <option value="150">150 €</option>
+                                            </select>
+                                            à
+                                            <select
+                                            class="min p-1 mx-1 rounded font-family-primary-light"
+                                            id="45"
+                                            aria-label="Choix 2"
+                                            >
+                                            <option value>--</option>
+                                            <option value="0">0 €</option>
+                                            <option value="30">30 €</option>
+                                            <option value="60">60 €</option>
+                                            <option value="90">90 €</option>
+                                            <option value="120">120 €</option>
+                                            <option value="150">150 €</option>
+                                            <option value="180">180 €</option>
+                                            </select>
+                                        </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                    <label class="form-check-label" for="flexRadioDefault3">Default radio3</label>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button
+                                        class="accordion-button collapsed bg-bleu titre"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                        >
+                                        Age
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseThree"
+                                        class="accordion-collapse collapse bg-bleu text-white"
+                                        aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="flexRadioDefault"
+                                            id="age1"
+                                            />
+                                            <label class="form-check-label" for="age1"> Bébé </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="flexRadioDefault"
+                                            id="age2"
+                                            checked
+                                            />
+                                            <label class="form-check-label" for="age2"> Adulte </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="flexRadioDefault"
+                                            id="age2"
+                                            />
+                                            <label class="form-check-label" for="age3"> Senior </label>
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <a href="">Plus de résultats <i class="fas fa-chevron-right"></i></a>
-                            </div>
-                            <div>
-                                <h2 class="titre">Prix</h2>
-                                <label for="customRange1" class="form-label">Example range</label>
-                                <input type="range" class="form-range" id="customRange1">
-                            </div>
-                            <div>
-                                <h2 class="titre">Races</h2>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixRace1">
-                                    <label class="form-check-label" for="choixRace1">Default radio1</label>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button
+                                        class="accordion-button collapsed bg-bleu titre"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour"
+                                        >
+                                        Races
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseFour"
+                                        class="accordion-collapse collapse bg-bleu text-white"
+                                        aria-labelledby="headingFour"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body ps-3">
+                                        <div class="input-group-prepend d-flex">
+                                            <button
+                                            class="btn btn-dark my-2 my-sm-0 rounded-t"
+                                            type="submit"
+                                            >
+                                            <i class="fas fa-search fa-lg"></i>
+                                            </button>
+                                            <input
+                                            class="form-control mr-sm-2 rounded-b"
+                                            type="search"
+                                            placeholder="Recherchez"
+                                            aria-label="Search"
+                                            />
+                                        </div>
+                                        <div class="form-check mb-2 mt-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="1"
+                                            id="checkRace"
+                                            />
+                                            <label class="form-check-label" for="checkRace">
+                                            Race 1
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="2"
+                                            id="checkRace"
+                                            />
+                                            <label class="form-check-label" for="checkRace">
+                                            Race 2
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value="2"
+                                            id="checkRace"
+                                            checked
+                                            />
+                                            <label class="form-check-label" for="checkRace">
+                                            Race 3
+                                            </label>
+                                        </div>
+                                        <a href="" class="text-white"
+                                            >Plus de choix <i class="fas fa-chevron-right"></i
+                                        ></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixRace2">
-                                    <label class="form-check-label" for="choixRace2">Default radio2</label>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button
+                                    class="accordion-button collapsed bg-bleu titre"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFive"
+                                    >
+                                    Saveur
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFive"
+                                    class="accordion-collapse collapse bg-bleu text-white"
+                                    aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="flexRadioDefault"
+                                        id="
+                                            flavor1"
+                                        />
+                                        <label class="form-check-label" for="flavor1">
+                                        Poulet
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="flexRadioDefault"
+                                        id="flavor2"
+                                        />
+                                        <label class="form-check-label" for="flavor2"> Beuf </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="flexRadioDefault"
+                                        id="flavor3"
+                                        />
+                                        <label class="form-check-label" for="flavor3">
+                                        Poisson
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="flexRadioDefault"
+                                        id="flavor4"
+                                        />
+                                        <label class="form-check-label" for="flavor4">
+                                        Autre
+                                        </label>
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixRace3">
-                                    <label class="form-check-label" for="choixRace3">Default radio3</label>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="titre">Age</h2>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixAge1">
-                                    <label class="form-check-label" for="choixAge1">Default radio1</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixAge2">
-                                    <label class="form-check-label" for="choixAge2">Default radio2</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixAge3">
-                                    <label class="form-check-label" for="choixAge3">Default radio3</label>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="titre">Taille</h2>
-                                <label for="customRange1" class="form-label">Example range</label>
-                                <input type="range" class="form-range" id="customRange1">
-                            </div>
-                            <div>
-                                <h2 class="titre">Saveurs</h2>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixSaveur1">
-                                    <label class="form-check-label" for="choixSaveur1">Default radio1</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixSaveur2">
-                                    <label class="form-check-label" for="choixSaveur2">Default radio2</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixSaveur3">
-                                    <label class="form-check-label" for="choixSaveur3">Default radio3</label>
-                                </div>
-                            </div>
-                            <div>
-                                <h2 class="titre">Besoins Spécifiques</h2>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixBesoin1">
-                                    <label class="form-check-label" for="choixBesoin1">Default radio1</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixBesoin2">
-                                    <label class="form-check-label" for="choixBesoin2">Default radio2</label>
-                                </div>
-                                <div class="form-check ">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choixBesoin3">
-                                    <label class="form-check-label" for="choixBesoin3">Default radio3</label>
                                 </div>
                             </div>
                         </div>

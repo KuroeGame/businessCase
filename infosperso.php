@@ -114,7 +114,7 @@
                                                 <label for="calendar">Date de naissance :</label><input type="date" id="calendar" name="trip-start" class="rounded-pill p-2" value="2018-07-22" min="1900-01-01" max="2002-12-31">
                                             </div>
                                             <div class="text-center mt-5">
-                                                <button type="submit" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Enregistrer les modifications</a></button>
+                                                <button type="submit" class="btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Enregistrer les modifications</a></button>
                                             </div>
                                         </form>
                                     </div>

@@ -56,7 +56,7 @@
                                     <a href="messenvoye.php" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
                                     <a href="nousecrire.php" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="p-4">
+                                <div class="p-4 ">
                                     <a href="/" title="" target=""><h3>Mes commandes</h3></a>
                                 </div>
                                 <div class="lignebotb bg-bleu infosperso d-flex flex-column pt-3 pb-3">
@@ -96,7 +96,7 @@
                                                 <input type="password2" class="form-control rounded-b" id="password" placeholder="Nouveau mot de passe*">
                                             </div>
                                             <div class="text-center">
-                                                <button type="submit" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Enregistrer les modifications</a></button>
+                                                <button type="submit" class="btn btn-contourblue p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Enregistrer les modifications</a></button>
                                             </div>
                                         </form>
                                     </div>

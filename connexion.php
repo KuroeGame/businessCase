@@ -60,7 +60,7 @@
                                 <a href="/" title="" target=""> Mot de passe oublié <i class="fas fa-arrow-right"></i></a>
                             </form>
                             <div class="text-center">
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="tableaudebord.php" class="m-1 btn-blue rounded-3 p-2">Me connecter</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="tableaudebord.php" class="btn-blue rounded-3 p-1">Me connecter</a></button>
                             </div>
                             <p><em>* Champs obligatoire</em></p>
                         </div>
@@ -69,7 +69,7 @@
                             <h2 class="titre">Je créé mon compte</h2>
                             <p>Bienvenue dans l’aventure La Nîmes’alerie!</p>
                             <div class="text-center">
-                                <button type="button" class="btn btn-contourblue mt-3 pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="creationcompte.php" class="m-1 btn-blue rounded-3 p-2">Créer mon compte</a></button>
+                                <button type="button" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="creationcompte.php" class=" btn-blue rounded-3 p-1">Créer mon compte</a></button>
                             </div>
                         </div>
                     </div>

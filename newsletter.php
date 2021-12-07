@@ -47,24 +47,24 @@
                     <h2 class="titre mb-5 ms-5">Accueil mon Compte <i class="fas fa-angle-right"></i></h2>
                     <div class="row"> <!-- align 12 colonnes -->
                         <div class="col-lg-3 col-sm-12 mb-5">
-                            <div class="bg-gris rounded-5 pt-3 ">
-                                <div class="lignebotb bg-bleu infosperso d-flex flex-column">
-                                    <h3 class="ps-4 titre">Messagerie</h3>
-                                    <a href="messrecu.php" title="" target="" class="ps-5 pe-4">Messages(s) reçu(s) <i class="fas fa-angle-right"></i></a>
-                                    <a href="messenvoye.php" title="" target="" class="ps-5 pe-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
-                                    <a href="nousecrire.php" title="" target="" class="ps-5 pe-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
+                            <div class="bg-gris rounded-5 pt-3">
+                                <div class="lignebotb ps-4 pe-4 d-flex flex-column">
+                                    <h3>Messagerie</h3>
+                                    <a href="messrecu.php" title="" target="" class="ms-4">Messages(s) reçu(s) <i class="fas fa-angle-right"></i></a>
+                                    <a href="messenvoye.php" title="" target="" class="ms-4">Messages(s) envoyé(s) <i class="fas fa-angle-right"></i></a>
+                                    <a href="nousecrire.php" title="" target="" class="ms-4 mb-3"> Nous écrire <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="p-4">
+                                <div class="p-4 lignebotb">
                                     <a href="/" title="" target=""><h3>Mes commandes</h3></a>
                                 </div>
-                                <div class="lignebotb ps-4 pe-4 d-flex flex-column pt-3 pb-3">
-                                    <h3 class="ps-4 titre">Coordonnées</h3>
+                                <div class=" ps-4 pe-4 d-flex flex-column pt-3 pb-3">
+                                    <h3>Coordonnées</h3>
                                     <a href="infosperso.php" title="" target="" class="ms-4">Informations personnelles <i class="fas fa-angle-right"></i></a>
                                     <a href="modifid.php" title="" target="" class="ms-4">Identifiants <i class="fas fa-angle-right"></i></a>
                                     <a href="index.php" title="" target="" class="ms-4 mb-3">Se déconnecter <i class="fas fa-angle-right"></i></a>
                                 </div>
-                                <div class="ps-4 pe-4 pb-3 pt-3">
-                                    <a href="newsletter.php" title="" target=""><h3>Newsletter</h3></a>
+                                <div class="bg-bleu rounded-b2 ps-4 pe-4 pb-3 pt-3">
+                                    <a href="newsletter.php" class="titre" title="" target=""><h3>Newsletter</h3></a>
                                 </div>   
 
                             </div>
@@ -76,40 +76,40 @@
                                         <h2 class="lignebotb">Newsletter</h2>
                                         <h3>Gestion de mon abonnement</h3>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                            <label class="form-check-label" for="flexCheckChecked">J’accepte de recevoir les offres de La Nîmes’alerie par newsletters.</label>
+                                            <input class="form-check-input" type="checkbox" value="" id="checkBoxNewsletter" checked>
+                                            <label class="form-check-label" for="checkBoxNewsletter">J’accepte de recevoir les offres de La Nîmes’alerie par newsletters.</label>
                                         </div>
                                         <div class="row mt-5 mb-3"> <!-- align 12 colonnes -->
                                             <div class="col-sm-1"></div>
                                             <div class="col-sm-2 text-center">
                                                 <img src="images/chameleon.png" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Reptiles</p>
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                                <input class="form-check-input choice" type="checkbox" value="reptiles" id="reptiles">
                                             </div>
                                             <div class="col-sm-2 text-center">
                                                 <img src="images/cat.png" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Chats</p>
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                <input class="form-check-input choice" type="checkbox" value="cats" id="cats">
                                             </div>
                                             <div class="col-sm-2 text-center">
                                                 <img src="images/dog.png" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Chiens</p>
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                <input class="form-check-input choice" type="checkbox" value="dogs" id="dogs">
                                             </div>
                                             <div class="col-sm-2 text-center">
-                                                <img src="images/guinea-pig.png" alt="image" width="100px" height="100px" class="img-fluid">
+                                                <img src="images/guinea-pig.png choice" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Rongeurs</p>
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                <input class="form-check-input" type="checkbox" value="rodents" id="rodents">
                                             </div>
                                             <div class="col-sm-2 text-center">
-                                                <img src="images/poisson.png" alt="image" width="100px" height="100px" class="img-fluid">
+                                                <img src="images/poisson.png choice" alt="image" width="100px" height="100px" class="img-fluid">
                                                 <p>Poissons</p>
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                                <input class="form-check-input" type="checkbox" value="fishs" id="fishs">
                                             </div>
                                         </div>
-                                        <div class="p-4 d-flex justify-content-around align-items-center">
-                                            <button type="submit" class="btn btn-contourblue pt-2 pb-2 pe-1 ps-1 rounded-3"><a href="" class="m-1 btn-blue rounded-3 p-2">Valider</a></button>
-                                            <a href="">Me désabonner</a>
+                                        <div class="p-4 d-flex justify-content-center align-items-center">
+                                            <button type="button" class="submitNewsletter btn btn-contourblue p-1 rounded-3"><p class="btn-blue rounded-3 p-1">Valider</p></button>
+                                            <a href="" class="ms-2">Me désabonner</a>
                                         </div>
                                         </form>
                                     </div>

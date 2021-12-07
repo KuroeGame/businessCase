@@ -73,8 +73,8 @@
                             <h2>Promos & Marques</h2>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Promos</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Marques</h2></a></li>
+                            <li><a class="dropdown-item" href="boutique.php"><h2 class="h2nav">Promos</h2></a></li>
+                            <li><a class="dropdown-item" href="marques.php"><h2 class="h2nav">Marques</h2></a></li>
                             <li class="text-end pe-3"><i class="fas fa-paw"></i></li>
                         </ul>
                     </li>
@@ -83,9 +83,9 @@
                             <h2>Nos services</h2>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Nous contacter</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">La Boutiques</h2></a></li>
-                            <li><a class="dropdown-item" href="#"><h2 class="h2nav">Activités</h2></a></li>
+                            <li><a class="dropdown-item" href="contacter.php"><h2 class="h2nav">Nous contacter</h2></a></li>
+                            <li><a class="dropdown-item" href="boutique.php"><h2 class="h2nav">La Boutiques</h2></a></li>
+                            <li><a class="dropdown-item" href="petinspace.php"><h2 class="h2nav">Activité</h2></a></li>
                             <li class="text-end pe-3"><i class="fas fa-paw"></i></li>
                         </ul>
                     </li>
