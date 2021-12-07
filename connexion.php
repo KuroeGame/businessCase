@@ -46,7 +46,7 @@
             <section>
                 <div class="container my-5"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-5 col-sm-12 bg-gris rounded-5 p-4">
+                        <div class="col-lg-5 col-sm-12 mb-3 bg-gris rounded-5 p-4">
                             <h2 class="titre">Je me connecte</h2>
                             <form class="p-4">
                                 <div class="mb-3 input-group">
@@ -65,7 +65,7 @@
                             <p><em>* Champs obligatoire</em></p>
                         </div>
                         <div class="col-lg-2"></div>
-                        <div class="col-lg-5 col-sm-12 bg-gris rounded-5 p-4">
+                        <div class="col-lg-5 col-sm-12 mb-3 bg-gris rounded-5 p-4">
                             <h2 class="titre">Je créé mon compte</h2>
                             <p>Bienvenue dans l’aventure La Nîmes’alerie!</p>
                             <div class="text-center">

@@ -44,7 +44,7 @@
                 <div class="container my-5"> <!-- container ou fluid ? -->
                     <h2 class="titre mb-5">Nous Contacter</h2>
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-6 col-sm-6">
+                        <div class="col-lg-6 col-sm-6 mb-3">
                             <div class="border bg-gris rounded-5 p-4">
                                 <form>
                                     <div class="mb-3">
@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="message" class="form-label ps-3">Votre message*</label>
-                                        <textarea class="form-control rounded-3" id="message" rows="3"></textarea>
+                                        <textarea class="form-control rounded-3" id="message" rows="5"></textarea>
                                     </div>
                                     <div class="mb-3 text-center">
                                         <button type="submit" class="btn btn-contourblue mt-3 p-1 rounded-3"><a href="" class="btn-blue rounded-3 p-1">Envoyer</a></button>
@@ -79,7 +79,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-6 d-flex flex-column justify-content-between">
+                        <div class="col-lg-6 col-sm-6 d-flex flex-column justify-content-between mb-3">
                             <div class="border bg-gris p-4 rounded-5">
                                 <h2>Nous contacter par téléphone</h2>
                                 <p>Notre Service Clients est à votre disposition du du lundi au vendredi de 9h à 18h<br/>
@@ -88,7 +88,7 @@
                                     <a href="tel:0404040404" title="" target=""><i class="fas fa-phone-alt"></i> 04 04 04 04 04 <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="border bg-gris p-4 rounded-5">
+                            <div class="border bg-gris p-4 rounded-5 mt-3">
                                 <h2>Nous contacter par courrier</h2>
                                 <p>Vous pouvez nous écrire à l'adresse suivante :<br/>
                                 <br/>

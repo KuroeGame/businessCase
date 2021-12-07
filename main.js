@@ -7,15 +7,17 @@
 /*****************
  * FONCTIONS
  *****************/
-function choiceNewsletter() {
-  let checked = document.querySelector(".choice").checked;
-  if (checked == true) {
-    console.log("");
+function removeHide() {
+  const LI = document.querySelectorAll(".morecat li");
+  console.log(LI);
+  for (let i = 0; i < LI.length; i++) {
+    LI[i].classList.remove("hide");
+    document.querySelector(".plus").classList.add("hide");
   }
 }
+
 /*****************
  * CODE
  *****************/
-document
-  .querySelector(".submitNewsletter")
-  .addEventListener("click", choiceNewsletter);
+
+document.querySelector(".plus").addEventListener("click", removeHide);

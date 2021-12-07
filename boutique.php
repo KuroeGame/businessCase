@@ -49,24 +49,36 @@
                 <div class="container text-center"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
                         <div class="col-12">
-                            <ul class="nav justify-content-around">
+                            <ul class="nav morecat justify-content-around">
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Croquettes</a></button>
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Croquettes</a></button>
                                 </li>
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Alimentation médicalisé</a></button>
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Alimentation médicalisé</a></button>
                                 </li>
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Patée</a></button>
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Patée</a></button>
                                 </li>
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Lait Maternisé</a></button>
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Lait Maternisé</a></button>
                                 </li>
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Bio & naturel</a></button>
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-pill plus"><a class="nav-link btn-gris2 rounded-pill ">+</a></button>
                                 </li>
-                                <li class="nav-item">
-                                    <button type="button" class="btn btn-contourgris2 p-1 rounded-pill"><a href="petinspace.php" class="nav-link btn-gris2 rounded-pill ">+</a></button>
+                                <li class="nav-item hide">
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Croquettes</a></button>
+                                </li>
+                                <li class="nav-item hide">
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Alimentation médicalisé</a></button>
+                                </li>
+                                <li class="nav-item hide">
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Patée</a></button>
+                                </li>
+                                <li class="nav-item hide">
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Lait Maternisé</a></button>
+                                </li>
+                                <li class="nav-item hide">
+                                    <button type="button" class="btn btn-contourgris2 p-1 mt-2 mb-2 rounded-3"><a href="petinspace.php" class="nav-link btn-gris2 rounded-3">Bio & naturel</a></button>
                                 </li>
                             </ul>
                         </div>
@@ -78,17 +90,18 @@
             <section>
                 <div class="container-fluid"> <!-- container ou fluid ? -->
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-3 bg-bleu text-white col-sm-4">
+                        <div class="col-lg-3 bg-bleu text-white">
                             <div class="lignebotbw">
                                 <p>1325 Produits</p>
                                 <a href="" title="vers le produit"><i class="fas fa-undo"></i>Réinitialiser les filtres</a>
-                                <div class="mb-3 d-flex">
-                                    <label for="sujet" class="form-label">Triez par</label>
-                                    <select class="form-select-sm rounded-pill" id="sujet"aria-label="Default select example">
+                                <div class="mb-3 d-flex mt-3">
+                                    <label for="sujet" class="form-label">Triez par : </label>
+                                    
+                                    <select class="form-select-sm rounded-pill ms-3" id="sujet"aria-label="Default select example">
                                         <option selected>-- Selectionnez un tri -- </option>
-                                        <option value="1">tri 1</option>
-                                        <option value="2">tri 2</option>
-                                        <option value="3">tri 3</option>
+                                        <option value="1">Prix par ordre croissant</option>
+                                        <option value="2">Prix par ordre décroissant</option>
+                                        <option value="3">Marques</option>
                                     </select>         
                                 </div>
                             </div>
@@ -113,57 +126,57 @@
                                         data-bs-parent="#accordionExample"
                                     >
                                         <div class="accordion-body ps-3">
-                                        <div class="input-group-prepend d-flex">
-                                            <button
-                                            class="btn btn-dark my-2 my-sm-0 rounded-t"
-                                            type="submit"
-                                            >
-                                            <i class="fas fa-search fa-lg"></i>
-                                            </button>
-                                            <input
-                                            class="form-control mr-sm-2 rounded-b"
-                                            type="search"
-                                            placeholder="Recherchez"
-                                            aria-label="Search"
-                                            />
-                                        </div>
-                                        <div class="form-check mb-2 mt-2">
-                                            <input
-                                            class="form-check-input"
-                                            type="checkbox"
-                                            value="1"
-                                            id="checkBrand"
-                                            />
-                                            <label class="form-check-label" for="checkBrand">
-                                            Marque 1
-                                            </label>
-                                        </div>
-                                        <div class="form-check mb-2">
-                                            <input
-                                            class="form-check-input"
-                                            type="checkbox"
-                                            value="2"
-                                            id="checkBrand"
-                                            />
-                                            <label class="form-check-label" for="checkBrand">
-                                            Marque 2
-                                            </label>
-                                        </div>
-                                        <div class="form-check mb-2">
-                                            <input
-                                            class="form-check-input"
-                                            type="checkbox"
-                                            value="2"
-                                            id="checkBrand"
-                                            checked
-                                            />
-                                            <label class="form-check-label" for="checkBrand">
-                                            Marque 3
-                                            </label>
-                                        </div>
-                                        <a href="" class="text-white"
-                                            >Plus de choix <i class="fas fa-chevron-right"></i
-                                        ></a>
+                                            <div class="input-group-prepend d-flex">
+                                                <button
+                                                class="btn btn-dark my-2 my-sm-0 rounded-t"
+                                                type="submit"
+                                                >
+                                                <i class="fas fa-search fa-lg"></i>
+                                                </button>
+                                                <input
+                                                class="form-control mr-sm-2 rounded-b"
+                                                type="search"
+                                                placeholder="Recherchez"
+                                                aria-label="Search"
+                                                />
+                                            </div>
+                                            <div class="form-check mb-2 mt-2">
+                                                <input
+                                                class="form-check-input"
+                                                type="checkbox"
+                                                value="1"
+                                                id="checkBrand"
+                                                />
+                                                <label class="form-check-label" for="checkBrand">
+                                                Marque 1
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input
+                                                class="form-check-input"
+                                                type="checkbox"
+                                                value="2"
+                                                id="checkBrand"
+                                                />
+                                                <label class="form-check-label" for="checkBrand">
+                                                Marque 2
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input
+                                                class="form-check-input"
+                                                type="checkbox"
+                                                value="2"
+                                                id="checkBrand"
+                                                checked
+                                                />
+                                                <label class="form-check-label" for="checkBrand">
+                                                Marque 3
+                                                </label>
+                                            </div>
+                                            <a href="" class="text-white"
+                                                >Plus de choix <i class="fas fa-chevron-right"></i
+                                            ></a>
                                         </div>
                                     </div>
                                 </div>
@@ -413,9 +426,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-9 bg-gris products sc1 col-sm-8 d-flex flex-column">
+                        <div class="col-lg-9 bg-gris products sc1 d-flex flex-column">
                             <div class="row p-4">
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -435,7 +448,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -455,7 +468,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -475,7 +488,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -497,7 +510,7 @@
                                 </div>
                             </div>
                             <div class="row p-4">
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -517,7 +530,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -537,7 +550,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
@@ -557,171 +570,7 @@
                                         <p>4.7 sur 105 240 avis</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row p-4">
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row p-4">
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
-                                    <div class="bg-white rounded-5 text-center p-2">
-                                        <a href="produit.php" title="vers le produit">
-                                            <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">
-                                            <h3>Nom Produit</h3>
-                                        </a>
-                                        <div class="d-flex justify-content-around align-items-center">
-                                            <p>prix €</p>
-                                            <button type="button" class="btn"><i class="fas bg-orange ps-4 pe-4 pt-2 pb-2 rounded-pill fa-cart-plus fa-1x "></i></button>
-                                        </div>
-                                        <div>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <p>4.7 sur 105 240 avis</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mb-3">
+                                <div class="col-lg-3 col-sm-6 mb-3">
                                     <div class="bg-white rounded-5 text-center p-2">
                                         <a href="produit.php" title="vers le produit">
                                             <img src="images/produit.png" class="img-fluid" height="200px" width="" alt="produit1">

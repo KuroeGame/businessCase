@@ -70,13 +70,10 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="mt-4 mb-2 text-center">
-                                        <img src="images/avis.png" alt="avis" width="330" height="100" class="img-fluid">
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-12 mt-3 mb-3">
-                                <div class="bg-orange rounded-3 p-3 questions">
+                                <div class="bg-orange rounded-5 p-3 questions">
                                     <h3>Une questions ?</h3>
                                     <p>Notre équipe nimoise sera toujours ravie de vous renseigner. Si vous avez une question sur un produit ou une commande, n’hésitez pas à nous contacter, nous sommes là pour vous aider !</p>
                                     <h4>HEURES D'OUVERTURE</h4>
@@ -88,6 +85,9 @@
                                             <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </div>
+                                </div>
+                                <div class="mt-4 mb-2 text-center">
+                                    <img src="images/avis.png" alt="avis" width="330" height="100" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-12 text-light mt-3 mb-3">

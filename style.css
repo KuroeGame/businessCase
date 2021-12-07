@@ -436,20 +436,23 @@ nav a h2:hover {
   .promo .carousel-item {
     height: 370px;
   }
-
-  .titrepanier {
-    display: block;
-  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 576px) {
+  .menu2 {
+    height: 55px;
+  }
+
   .titrepanier {
-    display: none;
+    display: none !important;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .menu2 {
+    height: 55px;
+  }
   .titrepanier {
-    display: none;
+    display: none !important;
   }
 }

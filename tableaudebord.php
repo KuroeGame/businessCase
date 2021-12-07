@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="row"> <!-- align 12 colonnes -->
-                        <div class="col-lg-6 ">
+                        <div class="col-lg-6 mb-5">
                             <div class="bg-gris rounded-5 p-3">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h4>Livré le : 20 sept 2021</h4>
