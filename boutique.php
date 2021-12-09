@@ -602,7 +602,8 @@
         </main>
 
         <footer>
-            <?php include("footer.php");?>   
+            <?php include("footer.php");?>  
+            <script src="boutique.js"></script>
         </footer>
 
     </body>

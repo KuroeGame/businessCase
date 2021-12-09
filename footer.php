@@ -139,5 +139,3 @@
             })
             });
             </script>
-           
-           <script src="main.js"></script>
